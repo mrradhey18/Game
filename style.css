@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1240px) {
+ .box{
+    width: 10rem;
+    height: 8rem;
+}
+}
+body{
+    background-color: #003049;
+    color: #fdf0d5;
+    width: 100vw;
+    display: inline-block;
+    justify-items: center;
+}
+div.main{
+    width: 18vw;
+    height: 70vh;
+}
+.box{
+    width: 5vw;
+    height: 5vw;
+    background-color: #669bbc;
+    border-radius: 10px;
+    border: 0.2dvw solid #003049 ;
+    color: black;
+    font-size: large;
+}
+@media screen and (min-width: 375px) and (max-width: 915px) {
+    .box{
+    border-radius: 5px;
+    border: 0.2dvw solid #003049;
+    }
+}
+.name{
+font-size: xx-large;
+}
