@@ -29,12 +29,25 @@ div.main{
     color: black;
     font-size: large;
 }
+@media screen and (min-width: 360px) and (max-width: 740px) {
+    .main{
+    display: grid;
+    grid-template-columns: 5vw 5vw 5vw;
+    grid-template-rows: 2.5vh 2.5vh 2.5vh;
+}
+}
 @media screen and (min-width: 375px) and (max-width: 915px) {
     .box{
     border-radius: 5px;
     border: 0.2dvw solid #003049;
     }
+    .main{
+    display: grid;
+    grid-template-columns: 5vw 5vw 5vw;
+    grid-template-rows: 3vh 3vh 3vh;
+}
 }
 .name{
 font-size: xx-large;
+
 }
